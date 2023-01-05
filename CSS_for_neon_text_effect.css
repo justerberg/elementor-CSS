@@ -1,0 +1,12 @@
+/*Glowing text only*/
+:root{
+    --glow: #03bcf4;
+}
+
+selector h2 {
+	text-shadow: 0 0 10px var(--glow),
+		 0 0 20px var(--glow),
+		  0 0 40px var(--glow),
+		   0 0 80px var(--glow),
+		   0 0 160px var(--glow);
+}
